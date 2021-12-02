@@ -7,6 +7,10 @@ Keypoint recognition is performed by detecting a heatmap of keypoints on an imag
 
 Pass two images through the generator to generate heatmap, RGB, and depth images, and then pass them through the generator again. At this time, RGB and depth images are learned to increase the expressive power of the feature map. The keypoint detection result is as follows.
 
+![re_drawer_recon](https://user-images.githubusercontent.com/50347012/144416903-7d74a4cd-9ffa-41a7-967d-38c38c3147d1.png)
+
+![re_mug_recon](https://user-images.githubusercontent.com/50347012/144416919-e518596f-ccdd-40d8-9f5d-28c6272220cd.png)
+
 ## Data generating
 
 Learning of Keypoints-net is performed through virtual environment data.
