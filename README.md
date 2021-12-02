@@ -1,4 +1,4 @@
-# Keypointsnet
+# Keypoints-net
 This algorithm is a neural network that uses the left and right images of an object to detect key points determined according to the type of object.
 
 Keypoint recognition is performed by detecting a heatmap of keypoints on an image. If a key point is detected in each image, the position of the key point in the three-dimensional space can be found using the camera parameters. This enables general manipulation of objects of the same type. The structure of Keypoints-net is shown in the figure below.
